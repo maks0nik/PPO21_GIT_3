@@ -9,7 +9,7 @@ double input_B() {
 }
 
 double ploshad(double a, double b) {
-  
+    return a * b;
 }
 
 double perimetr(double a, double b) {
