@@ -29,7 +29,7 @@ double ploshad(double a, double b) {
 }
 
 double perimetr(double a, double b) {
-    
+    return 2 * (a + b);
 }
 
 int main()
