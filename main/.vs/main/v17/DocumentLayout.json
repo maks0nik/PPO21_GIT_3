@@ -1,9 +1,16 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_2\\main\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{9FEF7A18-9A0C-4E0C-BC37-7AB7AC0EB957}|main\\main.vcxproj|C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_2\\main\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_1\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEF7A18-9A0C-4E0C-BC37-7AB7AC0EB957}|main\\main.vcxproj|C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_1\\main\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+>>>>>>> 7eb5764781e65d4ae61ebd07564bb05ac55744ef
       "RelativeMoniker": "D:0:0:{9FEF7A18-9A0C-4E0C-BC37-7AB7AC0EB957}|main\\main.vcxproj|solutionrelative:main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +27,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_2\\main\\main\\main.cpp",
               "RelativeDocumentMoniker": "main\\main.cpp",
               "ToolTip": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_2\\main\\main\\main.cpp",
               "RelativeToolTip": "main\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+=======
+              "DocumentMoniker": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_1\\main\\main\\main.cpp",
+              "RelativeDocumentMoniker": "main\\main.cpp",
+              "ToolTip": "C:\\Users\\\u0417\u0430\u043B\u0443\u043F\u043A\u0430\\Desktop\\Varfolomeev_Repository_v3\\Varfolomeev_Repository_v3_1\\main\\main\\main.cpp",
+              "RelativeToolTip": "main\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+>>>>>>> 7eb5764781e65d4ae61ebd07564bb05ac55744ef
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-21T13:01:32.873Z",
               "EditorCaption": ""
