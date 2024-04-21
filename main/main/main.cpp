@@ -1,15 +1,7 @@
 ﻿#include <iostream>
 
 double input_A() {
-    double a;
-    do {
-        std::cout << "Vvedite polozitelnoe chislo A: ";
-        std::cin >> a;
-        if (a <= 0) {
-            std::cout << "Chislo dolzno bit' polozhitelnim. Poprobute snova.\n";
-        }
-    } while (a <= 0);
-    return a;
+
 }
 
 double input_B() {
