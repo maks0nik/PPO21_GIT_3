@@ -5,7 +5,15 @@ double input_A() {
 }
 
 double input_B() {
-    
+    double b;
+    do {
+        std::cout << "Vvedite polozitelnoe chislo B: ";
+        std::cin >> b;
+        if (b <= 0) {
+            std::cout << "Chislo dolzno bit' polozhitelnim. Poprobute snova.\n";
+        }
+    } while (b <= 0);
+    return b;
 }
 
 double ploshad(double a, double b) {
