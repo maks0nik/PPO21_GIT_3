@@ -1,5 +1,20 @@
 ﻿#include <iostream>
 
+
+/**
+    @file		main.cpp
+    @brief		Основной файл с прописанными функциями
+    @copyright	ВоГу
+    @author		Варфоломеев М.А.
+    @date		04-06-2024
+    @version	1.0.0
+*/
+
+//Функция ввода числа А
+/**
+    Вводится значенгие переменной, A и проверяется корректность ввода
+    \param A натуральное число А
+*/
 double input_A() {
     double a;
     do {
@@ -11,6 +26,12 @@ double input_A() {
     } while (a <= 0);
     return a;
 }
+
+//Функция ввода числа В
+/**
+    Вводится значенгие переменной, В и проверяется корректность ввода
+    \param B натуральное число В
+*/
 
 double input_B() {
     double b;
@@ -24,21 +45,30 @@ double input_B() {
     return b;
 }
 
+
+//Функция рассчёта площади
+/**
+    Считает площадь по введённым А и В
+*/
 double ploshad(double a, double b) {
     return a * b;
 }
 
+//Функция рассчёта периметра
+/**
+    Считает периметр по введённым А и В
+*/
 double perimetr(double a, double b) {
     return 2 * (a + b);
 }
 
 int main()
 {
-    int choice;
-    double a, b, s, p;
+    int choice;         ///< Переменная функции
+    double a, b, s, p;  ///< A, B, Площадь, Периметр соответственно
 
     do {
-        // Выводим меню на экран
+///Вывод номеров функций с их описанием  
         std::cout << "Меню:\n";
         std::cout << "1. Vvesti polozitelnoe chislo A\n";
         std::cout << "2. Vvesti polozitelnoe chislo B\n";
@@ -47,7 +77,10 @@ int main()
         std::cout << "Viberite punkt: ";
         std::cin >> choice;
 
-        // Обрабатываем выбор пользователя
+///Выбор функции 
+/**
+    Выполняется функция, выбранная пользователем
+*/
         switch (choice) {
         case 1:
             a = input_A();
